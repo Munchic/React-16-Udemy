@@ -74,7 +74,8 @@ class App extends Component {
             margin: 'auto',
             height: '20px',
             border: '1px solid rgb(200, 200, 200)',
-            boxShadow: '2px 3px rgb(230, 230, 230)'
+            boxShadow: '2px 3px rgb(235, 235, 235)',
+            borderRadius: '4px'
         }} />
 
         <p>Length: {this.state.input.length}</p>

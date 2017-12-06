@@ -4,9 +4,10 @@ const CharComponent = (props) => {
   const style = {
     display: 'inline-block',
     textAlign: 'center',
+    borderRadius: '7px',
     margin: '4px',
     border: '1px solid rgb(200, 200, 200)',
-    boxShadow: '2px 3px rgb(230, 230, 230)',
+    boxShadow: '2px 3px rgb(235, 235, 235)',
     width: '36px',
   }
 
