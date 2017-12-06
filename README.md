@@ -1,5 +1,9 @@
-##How to Install
+## Installation
+1) To install, use npm or yarn
+2) Type in the terminal in the extracted folder
 ```
-1) Run "npm install" in the extracted folder
-2) Run "npm start" to view the project
+npm install
+```
+```
+npm start
 ```
