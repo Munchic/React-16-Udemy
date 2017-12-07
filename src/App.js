@@ -69,6 +69,7 @@ class App extends Component {
         <input
           onChange={this.inputHandler}
           value={this.state.input}
+          maxLength='10000'
           style={{
             width: '80%',
             margin: 'auto',

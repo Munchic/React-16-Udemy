@@ -13,6 +13,11 @@ const ValidationComponent = (props) => {
     info = 'Text long enough'
   }
 
+  if (length >= 9950) {
+    style.color = 'salmon'
+    info = 'Text too long'
+  }
+
   return (
     <p style={style}>{info}</p>
   )
